@@ -9,8 +9,7 @@ function formatCurrency(value) {
 
 function BalanceDisplay() {
   const balance = useSelector((store) => store.account.balance);
-
-  return <div className="balance">{formatCurrency(123456)}</div>;
+  return <div className="balance">{formatCurrency(balance)}</div>;
 }
 
 export default BalanceDisplay;
