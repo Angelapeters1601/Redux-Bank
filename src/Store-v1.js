@@ -137,3 +137,5 @@ console.log(store.getState());
 //   }
 
 //   deposit(500);
+
+// WITHOUT ACTION CREATOR FUNCTIONS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
